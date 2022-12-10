@@ -32,7 +32,8 @@ Why use YAD and not the usually already present on system Zenity? The answer is 
 
 1. When used on a dual monitor setup with different max resolutions, it usually does not spawn on the right (x,y) coordinates on the higher res one.  
 
-2. On my Arch i3wm setup YAD is not set by default as floating (unlike Zenity). The easiest workaround i found was adding to my i3wm config file the line   `for_window [title="YAD"] floating enable `  
+2. On my Arch i3wm setup YAD is not set by default as floating (unlike Zenity). The easiest workaround i found was adding to my i3wm config file the line  
+`for_window [title="YAD"] floating enable `  
 and naming every YAD instance with "YAD" in the name. I'm sure there are more elegant ways but I'll investigate them in the future. If you know any please let me know!  
 
 3. For some reason rofi refused to launch from the script, so i used the quick and dirty workaround of using `xdotool` to simulate the keybind press. Again, if you know why that's happening, please let me know!
