@@ -4,7 +4,7 @@
 
 1. [xdotool](https://github.com/jordansissel/xdotool), a utility for fake keyboard/mouse input, window management, and more 
 2. [YAD (Yet Another Dialog)](https://github.com/v1cont/yad) a utility for dialog boxes
-3. [Rofi](https://github.com/davatorium/rofi), [dmenu](https://tools.suckless.org/dmenu/) or whatever you prefer! Just make sure to edit the script accordingly.
+3. [Rofi](https://github.com/davatorium/rofi), [dmenu](https://tools.suckless.org/dmenu/) or whatever you prefer!
 
 ## Introduction
 
